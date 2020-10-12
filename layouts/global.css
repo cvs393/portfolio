@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'made-mirage';
+    font-style: thin;
+    font-weight: 300;
+    font-display: swap;
+    src: url('~assets/fonts/made-mirage/MADE Mirage Thin.otf') format('opentype');
+  }
+
+body {
+    background-color: #ece9e3;
+}
