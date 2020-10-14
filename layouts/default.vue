@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    <side-nav/>
-      <nuxt/>
+    <side-nav/> 
+    <nuxt/>
   </div>
 </template>
 
 <script>
 import sideNav from "~/components/sideNav.vue";
+import button from "~/components/button.vue";
 export default {
     components: {
-      sideNav
+      sideNav,
+      button
   }
 };
 </script>
