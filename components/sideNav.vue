@@ -21,12 +21,12 @@
 
 <style scoped>
 img {
-  width: 376px;
+  width: 150px;
   position: absolute;
   overflow: hidden;
-  margin-left: -10px;
-  opacity: 95%;
-  margin-top: -3px;
+  opacity: 90%;
+  margin-left: 0px;
+  margin-top: 30px;
   z-index: -1;
 }
 
@@ -53,6 +53,7 @@ img {
 
 .title h1 {
   font-size: 35px;
+  letter-spacing: 0;
 }
 
 h2 {
@@ -88,5 +89,10 @@ h2 {
  }
 
  @media screen and (min-width: 768px) {
+   img {
+     width: 20vw;
+     margin-left: -10px;
+     margin-top: -3px;
+   }
  }
 </style>
