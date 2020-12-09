@@ -1,5 +1,6 @@
 <template>
   <main>
+    <!-- HOME SCREEN -->
     <div class="container-fluid">
       <section class="row">
         <div class="box col-12 offset-md-2 col-md-10 mt-5">
@@ -28,7 +29,6 @@
                     <li>International Gilman Scholarship 2018</li>
                   </ul></h4>
                   <button><nuxt-link to="/resume">My Resume</nuxt-link></button>
-
                 </div>
               </div>
             </div>
@@ -36,6 +36,24 @@
         </div>
       </section>
     </div>
+    <!-- END HOME SCREEN -->
+
+    <!-- ART SECTION -->
+
+
+
+
+
+
+
+
+
+
+    <!-- PROJECT OVERVIEW SECTION -->
+
+    <!-- CONTACT -->
+
+    <!-- FOOTER -->
     <footer class="mt-5">
       <h4>Copyright 2020 Courtney Spivey. All Rights Reserved.</h4>
     </footer>
@@ -66,7 +84,7 @@
 
 .box .image h1 {
   position: absolute;
-  color: #696c65;
+  color: #fa2525;
   margin: 0;
   right: 0;
   bottom: 0;
@@ -128,7 +146,7 @@
 }
 
 img {
-  width: 100%;
+  /*width: 100%;*/
 }
 
 footer {
