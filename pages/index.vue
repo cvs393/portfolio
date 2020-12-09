@@ -40,16 +40,24 @@
 
     <!-- ART SECTION -->
 
-
-
-
-
-
-
-
-
-
-    <!-- PROJECT OVERVIEW SECTION -->
+        <!-- PROJECT OVERVIEW SECTION -->
+    <div class=left-title><h1>GAME PROJECTS</h1></div>
+    <div class="slider" style="">
+    	<div class="slide-track">
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/BORE.jpg"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/FIRST_STEP_TO_THE_GODS.png"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/UKIE.png"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    		<nuxt-link to="/code"><img src="~/assets/img/bg.jpg"/></nuxt-link>
+    		</div>
+    	</div>
+    </div>
 
     <!-- CONTACT -->
 
@@ -63,6 +71,8 @@
 <script>
 
 </script>
+
+
 <style>
 .box {
  border:#696c65 1px solid;
@@ -126,6 +136,14 @@
 .box .content button {
   float: right;
 }
+
+/* project gallery */
+.left-title {
+  margin-top: 10rem;
+  justify-content: left;
+
+}
+
 
 /* applies when the screen is bigger than 768px (desktop version) */
 @media screen and (min-width: 768px) {
