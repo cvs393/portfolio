@@ -30,9 +30,9 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-            background-color:#35495e;
-            box-shadow: inset 0 0 0 1px #ffffff;
-		color: #ffffff !important;
+            background-color: #fa2525;
+            box-shadow: inset 0 0 0 1px 	#696c65;
+		color: 	#474b41 !important;
 		}
 
 		input[type="submit"]:active,

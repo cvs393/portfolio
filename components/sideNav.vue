@@ -1,6 +1,7 @@
+
 <template>
   <div>
-    <img src="~/assets/img/logo.png">
+    <img src="~/assets/img/Final_logo.png">
       <div class="header-warp">
         <div class="title">
         <h1>COURTNEY VALENTINE SPIVEY</h1>
@@ -9,8 +10,8 @@
           <ul class="main-menu" style="margin-top: 15px;">
             <li><nuxt-link to="/">Home</nuxt-link></li>
             <li><nuxt-link to="/gallery">Art</nuxt-link></li>
-            <li><nuxt-link to="/code">Code</nuxt-link></li>
-            <li><nuxt-link to="/misc">Other Skills</nuxt-link></li>
+            <li><nuxt-link to="/code">Game Projects</nuxt-link></li>
+            <li><nuxt-link to="/misc">Misc. Projects</nuxt-link></li>
             <li><nuxt-link to="/resume">Resume</nuxt-link></li>
             <li><nuxt-link to="/contact">Contact</nuxt-link></li>
           </ul>
@@ -40,13 +41,13 @@ img {
   Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 400;
-  color: #35495e;
+  color:#696c65;
   letter-spacing: 7px;
   justify-content: center;
   align-items: center;
   text-align: center;
   border-style: solid;
-  border-color: #35495e;
+  border-color:#696c65;
   border-width: 1px 0px;
   padding: 20px
 }
@@ -85,7 +86,8 @@ h2 {
    letter-spacing: 2px;
    font-weight: 400;
    padding: 10px 0;
-   color: #35495e;
+   color: #696c65;
+   /*  #35495e */
  }
 
  @media screen and (min-width: 768px) {
@@ -95,4 +97,8 @@ h2 {
      margin-top: -3px;
    }
  }
+
+ 
 </style>
+
+

@@ -7,13 +7,13 @@
             <div class="row">
               <div class="image col-12 col-md-6 order-md-2">
                 <div class="cage">
-                  <h1>ABOUT</h1>
+                  <h1>HOME</h1>
                   <img src="~/assets/img/profile.jpg">
                 </div>
               </div>
               <div class="col-12 col-md-6 order-md-1 content">
                 <div class="cage">
-                  <h1 class="pt-md-3">ABOUT</h1>
+                  <h1 class="pt-md-3">HOME</h1>
                 </div>
                 <div class="text px-3 pb-3">
                   
@@ -27,7 +27,8 @@
                     <li>Rotary Club Scholarship 2019</li>
                     <li>International Gilman Scholarship 2018</li>
                   </ul></h4>
-                  <button>click here!</button>
+                  <button><nuxt-link to="/resume">My Resume</nuxt-link></button>
+
                 </div>
               </div>
             </div>
@@ -41,9 +42,12 @@
   </main>
 </template>
 
+<script>
+
+</script>
 <style>
 .box {
- border:#35495e 1px solid;
+ border:#696c65 1px solid;
  padding: 0;
 }
 
@@ -62,7 +66,7 @@
 
 .box .image h1 {
   position: absolute;
-  color: #ece9e3;
+  color: #696c65;
   margin: 0;
   right: 0;
   bottom: 0;

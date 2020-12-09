@@ -15,12 +15,12 @@
 }
 
 body {
-    background-color: #ece9e3;
+    background-color: #dacaca;
 }
 
 
 h2, h3, h4, h5, h6 {
-  color: #35495e;
+  color: #696c65;
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
@@ -34,7 +34,7 @@ h1 {
 	line-height: 1.3;
 	letter-spacing: 0.2rem;
   font-family: made-mirage;
-  color: #35495e;
+  color:#fa2525;
   text-transform: uppercase;
   justify-content: center;
   align-items: center;
