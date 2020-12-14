@@ -5,6 +5,7 @@
 <script>
 import gallery from '@/components/gallery.vue';
 export default {
+  name: 'art',
   components: {
     gallery,
   },

@@ -11,6 +11,7 @@
 <script>
 import photos from '@/photos.js'; 
 export default {
+  name: 'gallery',
   data() {
     return {
       photos,
