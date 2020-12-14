@@ -4,11 +4,11 @@
     <img src="~/assets/img/Final_logo.png">
       <div class="header-warp">
         <div class="title">
-        <h1><nuxt-link to="/">COURTNEY VALENTINE SPIVEY</nuxt-link></h1>
+        <h1 style="font-weight: 300;"><nuxt-link to="/">COURTNEY VALENTINE SPIVEY</nuxt-link></h1>
           <h2 style="margin-bottom: 0px;">Game Designer, Artist, hobby Programmer.</h2>
         </div>
         <div class="row">
-          <ul class="col-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between">
+          <ul class="col-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
             <!--<li><nuxt-link to="/">Home</nuxt-link></li>-->
             <li><nuxt-link to="/gallery">Art</nuxt-link></li>
             <li><nuxt-link to="/code">Projects</nuxt-link></li>

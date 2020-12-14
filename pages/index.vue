@@ -1,3 +1,4 @@
+
 <template>
   <main>
     <!-- HOME SCREEN -->
@@ -41,7 +42,10 @@
     <!-- ART SECTION -->
 
         <!-- PROJECT OVERVIEW SECTION -->
-    <div class=left-title><h1>GAME PROJECTS</h1></div>
+      
+    <div class=left-title><h1 style="font-weight: 300">GAME PROJECTS:</h1></div>
+    <div class="col-12 col-md-6 offset-md-3" style="padding: 0px 2% 2%;"><h4>Projects I've completed and projects that are currently in progress. Click on any of them for more details, or keep scrolling to reach the end of the home page and go back up to explore the rest!</h4></div>
+    <div class="vertical-line"></div>
     <div class="slider" style="">
     	<div class="slide-track">
     		<div class="slide">
@@ -59,6 +63,98 @@
     	</div>
     </div>
 
+    <div class=left-title><h1 style="font-weight: 300">SKILLS</h1></div>
+    <div class="col-12 col-md-6 offset-md-3" style="padding: 0px 2% 2%;"><h4>A fancy scrollbar that includes the skills I have in my repertoire.</h4></div>
+    <div class="vertical-line"></div>
+    <div class="slider-skills">
+	<div class="slide-track-skills">
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide-skills">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+	</div>
+</div>
+
+
+    <!-- CONTACT -->
+    <div class=left-title><h1> </h1></div>
+    <div class="container-fluid">
+      <section class="row">
+        <div class="box col-12 col-md-10 offset-1 mt-5">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="image col-12 col-md-6 order-md-2">
+                <div class="cage">
+                  <h1>MISC.</h1>
+                  <img src="~/assets/gallery//peacekeeper/peacekeeper_gif.gif">
+                </div>
+              </div>
+              <div class="col-12 col-md-6 order-md-1 content">
+                <div class="cage">
+                  <h1 class="pt-md-3">MISC.</h1>
+                </div>
+                <div class="text px-3 pb-3"> 
+                  <h4><ul style="list-style: none; text-align: left;"><h3 style="text-align: left;">Hobbies and Interests</h3>
+                    <li>- Recreational Drawing</li>
+                    <li>- Creative Writing	&amp; World Building</li>
+                    <li>- Playing Clarinet	&amp; Piano</li>
+                    <li>- Brutalist | Material | Futuristic Design</li>
+                    <li>- Video Games! Current favs include: Breath of the Wild, Detroit: Become Human, FFVII Remake, 
+                      Hyper Light Drifter, Animal Crossing: New Horizons, and Skyrim! Waiting on buying a PS5 to play Cyberpunk 2077 :'(
+                    </li>
+                  </ul></h4>
+                  <p></p>
+                  <h3 style="text-align: left; padding: 1rem;"><p>You can reach me on LinkedIn, Artstation, Itchi.io &amp; Behance!</p></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="left-title col-12 col-md-8 offset-md-2" style=""><h1 style="font-weight: 300; font-size: 4rem; text-align: center; ">WELCOME TO THE END OF THE HOMEPAGE. </h1></div>
+    <div class="vertical-line"></div>
+    <div class="col-12 col-md-6 offset-md-3" style="padding: 2% 2% 0px;"><h4>Feel free to get a coffee break or check out your insta feed real quick. Don't worry, this page will still be here. Or scroll back up and look through some of the other tabs, I don't mind.</h4></div>
+    <div class="col-12 col-md-6 offset-md-3" style="padding: 0px 2% 2%;"><h4>This website was created using Vue.js, Nuxt, Bootstrap 4 and Firebase. All the code and assets are available on my GITHUB (fair warning, it's fairly deserted and a work in progress), feel free to check that out if you thought this looked cool or whatever ;) Cheers!</h4></div>
+    <div class="top-button"><button><nuxt-link to="#">Top of Page</nuxt-link></button></div>
     <!-- CONTACT -->
 
     <!-- FOOTER -->
@@ -69,14 +165,25 @@
 </template>
 
 <script>
-
 </script>
 
-
 <style>
+.top-button {
+  display: flex;
+  justify-content: center;
+}
+.vertical-line {
+  border-left: 1px solid #696c65;
+  height: 200px;
+  position: relative;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
 .box {
  border:#696c65 1px solid;
  padding: 0;
+ 
 }
 
 .box .image {
@@ -138,10 +245,11 @@
 }
 
 /* project gallery */
-.left-title {
+div.left-title h1 {
   margin-top: 10rem;
-  justify-content: left;
-
+  text-align: center;
+  /*padding-left: 1rem;*/
+  font-size: 3rem;
 }
 
 
@@ -163,11 +271,14 @@
   }
 }
 
-img {
-  /*width: 100%;*/
-}
-
 footer {
   padding: 37px 53px;
+}
+
+div.left-title h1 {
+  /*margin-top: 10rem;
+  text-align: left;
+  padding-left: 1rem;*/
+  font-size: 6rem;
 }
 </style>

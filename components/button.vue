@@ -8,8 +8,8 @@
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 1px #35495e;
-		color: #35495e !important;
+		box-shadow: inset 0 0 0 1px #8b1606;
+		color: #8b1606 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8rem;
@@ -40,7 +40,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #35495e;
+			background-color: #8b1606;
 		}
 
 		input[type="submit"].icon:before,
@@ -98,6 +98,15 @@
 	input[type="button"],
 	button {
 		line-height: calc(2.75rem - 2px);
+	}
+
+	.button a {
+		color: #474b41;
+	}
+
+	.button a:hover{
+		color: #474b41;
+		text-decoration: none;
 	}
 
 </style>
