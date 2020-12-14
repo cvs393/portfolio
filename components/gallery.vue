@@ -1,15 +1,18 @@
 <template>
-  <div class="gallery">
+  <div><h1 style="border-bottom: 1px solid #696c65;">Gallery</h1>
+  <div class="gallery padding-right: 20px; padding-left: 20px;">
     <div class="gallery-panel"
          v-for="photo in photos"
          :key="photo.id">
       <img :src="thumbUrl(photo.filename)">
     </div>
+    <h1>testing</h1>
+  </div>
   </div>
 </template>
 
 <script>
-import photos from '@/photos.js'; 
+import photos from '@/photos.json'; 
 export default {
   name: 'Gallery',
   data() {
@@ -29,7 +32,7 @@ export default {
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 3rem;
     max-width: 80rem;
     margin: 5rem auto;
     padding: 0 5rem;
@@ -38,6 +41,6 @@ export default {
     width: 100%;
     height: 22vw;
     object-fit: cover;
-    border-radius: 0.75rem;
+    border-radius: 0.2rem;
   }
 </style>

@@ -122,7 +122,7 @@
     {
       "id": 8,
       "title": null,
-      "filename": "9.png",
+      "filename": "9.PNG",
       "location": "Neo Tokio",
       "source": {
         "name": "Courtney Spivey",
@@ -137,7 +137,7 @@
     {
       "id": 9,
       "title": null,
-      "filename": "10.png",
+      "filename": "10.PNG",
       "location": "Neo Tokio",
       "source": {
         "name": "Courtney Spivey",
@@ -152,7 +152,7 @@
     {
       "id": 10,
       "title": null,
-      "filename": "11.png",
+      "filename": "11.PNG",
       "location": "Neo Tokio",
       "source": {
         "name": "Courtney Spivey",
@@ -162,7 +162,7 @@
         "name": "Myself",
         "url": "https://unsplash.com/"
       }
-    },
+    }
     
       
   
