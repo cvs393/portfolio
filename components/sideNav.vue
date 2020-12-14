@@ -10,7 +10,7 @@
         <div class="row">
           <ul class="col-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
             <!--<li><nuxt-link to="/">Home</nuxt-link></li>-->
-            <li><nuxt-link to="/gallery">Art</nuxt-link></li>
+            <li><nuxt-link to="/art">Art</nuxt-link></li>
             <li><nuxt-link to="/code">Projects</nuxt-link></li>
           </ul>
           <ul class="col-4 offset-4 right-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-right:15px;">

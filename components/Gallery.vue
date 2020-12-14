@@ -9,9 +9,8 @@
 </template>
 
 <script>
-import photos from 'photos.js'; 
+import photos from '@/photos.js'; 
 export default {
-  name: 'Gallery',
   data() {
     return {
       photos,
@@ -19,7 +18,7 @@ export default {
   },
   methods: {
     thumbUrl(filename) {
-      return require(`../assets/gallery/${filename}`);
+      return require(`../assets/gallery/thumbnails/${filename}`);
     },
   },
 };
