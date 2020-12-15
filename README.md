@@ -2,7 +2,7 @@
 
 ## Purpose
 
-a portfolio website for my game design and development abilities. feel free to look at code and check out the website here at www.courtney-valentine-spivey.web.app! all picture credits are mine, do not reuse anywhere. copyright 2020
+a portfolio website for my game design and development abilities. feel free to look at code and check out the website here at https://courtney-valentine-spivey.web.app/! all picture credits are mine, do not reuse anywhere. copyright 2020
 
 ## Build Setup
 
