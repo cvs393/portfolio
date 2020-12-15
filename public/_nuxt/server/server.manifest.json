@@ -1,0 +1,21 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/art.js": "pages/art.js",
+    "pages/code.js": "pages/code.js",
+    "pages/contact.js": "pages/contact.js",
+    "pages/index.js": "pages/index.js",
+    "pages/misc.js": "pages/misc.js",
+    "pages/resume.js": "pages/resume.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/art.js": "pages/art.js.map",
+    "pages/code.js": "pages/code.js.map",
+    "pages/contact.js": "pages/contact.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/misc.js": "pages/misc.js.map",
+    "pages/resume.js": "pages/resume.js.map",
+    "server.js": "server.js.map"
+  }
+}
