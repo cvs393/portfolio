@@ -2,7 +2,7 @@
 
 ## Purpose
 
-To generate a portfolio website for my game design and development abilities for jobs. 
+a portfolio website for my game design and development abilities. 
 
 ## Build Setup
 
@@ -16,6 +16,8 @@ $ npm run dev
 # build for production and launch server
 $ npm run build
 $ npm run start
+$ npm run deploy:firebase # packages current dev version for firebase and deploys it on the web
+$ npm run deploy #takes whatever build exists and deploys that on the web (faster)
 
 # generate static project
 $ npm run generate
