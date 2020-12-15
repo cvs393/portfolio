@@ -1,4 +1,3 @@
-
 <template>
   <div class="thingy" style="position: relative; display:block">
     <img src="~/assets/img/Final_logo.png">
