@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <side-nav/> 
-    <nuxt/>
+    <router-view />
   </div>
 </template>
 
@@ -11,13 +11,35 @@ import button from "~/components/button.vue";
 import Gallery from "~/components/gallery.vue";
 import photos from "@/photos.json";
 import Photo from '~/pages/Photo.vue';
+import art from "~/pages/art.vue";
+import Vue from 'vue';
+import Router from 'vue-router';
 
-export default {
-    components: {
+
+Vue.use(Router);
+
+export default new Router({
+  mode: 'history',
+  base: process.env.BASE_URL,
+  routes: [
+    {
+      path: '/art',
+      name: 'art',
+      component: art,
+    },
+    {
+        path: '/photo/:id',
+        name: 'photo',
+        component: Photo,
+      },
+  ],
+  components: {
       sideNav,
       button,
       Gallery,
-      Photo
+      Photo,
+      photos,
+      art,
   }
-};
+});
 </script>

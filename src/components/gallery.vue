@@ -4,9 +4,11 @@
     <div class="gallery-panel"
          v-for="photo in photos"
          :key="photo.id">
-      <img :src="thumbUrl(photo.filename)">
+      <router-link :to="`/photo/${photo.id}`">
+        <img :src="thumbUrl(photo.filename)">
+      </router-link>
     </div>
-    <h1>=</h1>
+    <h4>more art on my behance and instagram @ blah blahs</h4>
   </div>
   </div>
 </template>
