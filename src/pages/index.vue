@@ -49,16 +49,28 @@
     <div class="slider" style="">
     	<div class="slide-track">
     		<div class="slide">
-    			<nuxt-link to="/code"><img src="~/assets/img/BORE.jpg"/></nuxt-link>
+    			<nuxt-link to="/code"><img src="~/assets/img/BORE.jpg" style="height:600px;"/></nuxt-link>
     		</div>
     		<div class="slide">
-    			<nuxt-link to="/code"><img src="~/assets/img/FIRST_STEP_TO_THE_GODS.png"/></nuxt-link>
+    			<nuxt-link to="/code"><img src="~/assets/img/FIRST_STEP_TO_THE_GODS.png" style="height:600px;"/></nuxt-link>
     		</div>
     		<div class="slide">
-    			<nuxt-link to="/code"><img src="~/assets/img/UKIE.png"/></nuxt-link>
+    			<nuxt-link to="/code"><img src="~/assets/img/UKIE.png" style="height:600px;"/></nuxt-link>
     		</div>
     		<div class="slide">
-    		<nuxt-link to="/code"><img src="~/assets/img/bg.jpg"/></nuxt-link>
+    		<nuxt-link to="/code"><img src="~/assets/img/bg.jpg" style="height:600px;"/></nuxt-link>
+    		</div>
+        <div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/BORE.jpg" style="height:600px;"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/FIRST_STEP_TO_THE_GODS.png" style="height:600px;"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/UKIE.png" style="height:600px;"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    		<nuxt-link to="/code"><img src="~/assets/img/bg.jpg" style="height:600px;"/></nuxt-link>
     		</div>
     	</div>
     </div>
@@ -68,7 +80,7 @@
     <div class="vertical-line"></div>
     <div class="slider-skills">
 	<div class="slide-track-skills">
-		<div class="slide-skills">
+		<div class="slide-skills"><nav></nav>
 			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide-skills">

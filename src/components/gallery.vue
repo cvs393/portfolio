@@ -6,7 +6,7 @@
          :key="photo.id">
       <img :src="thumbUrl(photo.filename)">
     </div>
-    <h1>testing</h1>
+    <h1>=</h1>
   </div>
   </div>
 </template>
