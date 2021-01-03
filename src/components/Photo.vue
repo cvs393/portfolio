@@ -18,13 +18,14 @@
         </p>
       </div>
     </div>
+    <div class="lightbox" @click.self="closeLightbox"></div>
   </div>
 </template>
 
 <script>
 import photos from '@/photos.json';
 export default {
-  name: 'Photo',
+  name: 'Photosss',
   data() {
     return {
       photos,
@@ -41,6 +42,9 @@ export default {
     photoUrl(filename) {
       return require(`../assets/gallery/${filename}`);
     },
+    closeLightbox() {
+      this.$router.push('/');
+    }
   },
 };
 </script>
