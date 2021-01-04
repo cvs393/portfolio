@@ -2,6 +2,7 @@
   <div id="app">
     <side-nav/> 
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
