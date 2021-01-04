@@ -4,6 +4,10 @@
 
 a portfolio website for my game design and development abilities. feel free to look at code and check out the website here at https://courtney-valentine-spivey.web.app/! all picture credits are mine, do not reuse anywhere. copyright 2020
 
+## For duplication
+
+If you wish to see how the project works when it comes to front end web dev, ignore everything except the 'src' folder. 
+
 ## Build Setup
 
 ```bash
