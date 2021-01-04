@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{287:function(e,n,t){"use strict";t.r(n);var l={name:"art",components:{Gallery:t(135).default}},r=t(40),component=Object(r.a)(l,(function(){var e=this.$createElement;return(this._self._c||e)("Gallery")}),[],!1,null,"791b6dfb",null);n.default=component.exports;installComponents(component,{Gallery:t(135).default})}}]);

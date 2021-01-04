@@ -28,7 +28,7 @@ $ npm run generate
 ```bash
 create-nuxt-app v3.4.0
 ✨  Generating Nuxt.js project in portfolio
-? Project name: Portfolio
+? Project name: Courtney-Valentine-Spivey
 ? Programming language: JavaScript
 ? Package manager: Npm
 ? UI framework: Bootstrap Vue
