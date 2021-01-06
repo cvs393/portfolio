@@ -170,9 +170,7 @@
     <!-- CONTACT -->
 
     <!-- FOOTER -->
-    <footer class="mt-5">
-      <h4>Copyright 2020 Courtney Spivey. All Rights Reserved.</h4>
-    </footer>
+    
   </main>
 </template>
 
@@ -185,11 +183,11 @@
   justify-content: center;
 }
 .vertical-line {
-  border-left: 1px solid #696c65;
+  width: 1px;
+  background-color: #696c65;
   height: 200px;
   position: relative;
   left: 50%;
-  margin-left: -3px;
   top: 0;
 }
 .box {

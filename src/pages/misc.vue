@@ -38,7 +38,5 @@
   text-align: center;
   
 }
-.body {
-}
 
 </style>

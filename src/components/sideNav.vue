@@ -1,8 +1,8 @@
 <template>
-  <div class="thingy" style="position: relative; display:block">
-    <img src="~/assets/img/Final_logo.png">
-      <div class="header-warp">
+  <div class="thingy" style="position: relative; display:block;">
+      <div class="container-fluid">
         <div class="title">
+          <img src="~/assets/img/Final_logo.png">
         <h1 style="font-weight: 300;"><nuxt-link to="/">COURTNEY VALENTINE SPIVEY</nuxt-link></h1>
           <h2 style="margin-bottom: 0px;">Game Designer, Artist, hobby Programmer.</h2>
         </div>
@@ -27,12 +27,18 @@
 
 <style scoped>
 img {
-  /*width: 150px;
-  position: absolute;
-  overflow: hidden;
-  margin-left: 0px;
-  margin-top: 0px;*/
   z-index: -1;
+  display: block;
+  left: 50%;
+  height: 150%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+  position: absolute;
+  opacity: 70%;
+}
+
+.thingy {
+  margin: 120px 53px 37px 53px;
 }
 
 .header-warp {
@@ -53,7 +59,8 @@ img {
   border-style: solid;
   border-color:#696c65;
   border-width: 1px 0px;
-  padding: 20px
+  padding: 20px;
+  position: relative;
 }
 
 .title h1 a {
@@ -107,11 +114,14 @@ h2 {
    img {
     display: block;
     left: 50%;
-    height: 100%;
+    height: 150%;
     /*top: -10%;*/
-    transform: translate(-50%); 
+    transform: translate(-50%, -50%); 
     position: absolute;
-    opacity: 87%;
+    opacity: 70%;
+   }
+   .thingy {
+    margin: 120px 53px 37px 53px;
    }
  }
 </style>

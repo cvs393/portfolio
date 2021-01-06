@@ -1,5 +1,5 @@
 module.exports = {
-
+  target: 'static',
   srcDir: 'src',
   buildDir: 'functions/.nuxt',
 

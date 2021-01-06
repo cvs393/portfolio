@@ -1,7 +1,7 @@
 <template>
     <div class="footer" style="position: relative; display:block">
-      <div class="footer-warp">
-        <div class="vertical-line"></div>  
+      <vertLine/>
+      <div class="footer-wrap">
         <div class="row" style="border-width:1px 0px 0px 0px;">
           <ul class="col-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
             <li><a href="https://linkedin.com/profile/courtney-spivey">LinkedIn</a></li>
@@ -12,21 +12,30 @@
             <li><a href="https://courtneyspivey.itch.io/">Itch.io</a></li>
           </ul>
         </div>
+        <h5>Copyright 2020 Courtney Spivey. All Rights Reserved.</h5>
       </div>
     </div>
 </template>
 
+<script>
+import vertLine from "~/components/vertLine.vue";
+export default {
+  components: {
+    vertLine,
+  }
+}
+</script>
 
 <style scoped>
 .footer-wrap {
-    padding: 37px 53px 37px 53px;
-   justify-content: flex-end;
+  /*padding: 37px 53px 37px 53px;*/
+  justify-content: flex-end;
 }
 .row {
   border-style: solid;
   border-color:#696c65;
+  margin: 0px 53px;
   /*border-top-width: 1px;*/
-  padding: 20px
 }
 .vertical-line {
   border-left: 1px solid #696c65;
@@ -46,11 +55,6 @@ h2 {
   text-align: center;
  }
 
- .main-menu {
-   display: flex;
-   justify-content: space-evenly;
-   padding-left: 0;
- }
  
  .main-menu li {
    display: inline-block;
@@ -65,9 +69,5 @@ h2 {
    padding: 10px 0;
    color: #fa2525;
    /*  #35495e */
- }
-.header-warp {
-   padding: 120px 53px 37px 53px;
-   justify-content: flex-end;
  }
 </style>
