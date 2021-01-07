@@ -4,7 +4,7 @@
         <div class="title">
           <img src="~/assets/img/Final_logo.png">
         <h1 style="font-weight: 300;"><nuxt-link to="/">COURTNEY VALENTINE SPIVEY</nuxt-link></h1>
-          <h2 style="margin-bottom: 0px;">Game Designer, Artist, hobby Programmer.</h2>
+          <h4 style="margin-bottom: 0px; letter-spacing:5px; font-weight:300; font-size:1.2rem">game designer, &nbsp; artist, &nbsp; hobby programmer.</h4>
         </div>
         <div class="row">
           <ul class="col-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
@@ -76,16 +76,6 @@ img {
   text-decoration: none;
 }
 
-h2 {
-  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont,
-  Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  align-items: center;
-  text-align: center;
- }
-
-
  
  .main-menu {
    display: flex;
@@ -110,18 +100,9 @@ h2 {
    /*  #35495e */
  }
 
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 1612px) {
    img {
-    display: block;
-    left: 50%;
-    height: 150%;
-    /*top: -10%;*/
-    transform: translate(-50%, -50%); 
-    position: absolute;
-    opacity: 70%;
-   }
-   .thingy {
-    margin: 120px 53px 37px 53px;
+    height: 200%;
    }
  }
 </style>

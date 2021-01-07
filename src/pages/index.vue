@@ -42,11 +42,10 @@
     <!-- ART SECTION -->
 
         <!-- PROJECT OVERVIEW SECTION -->
-      
-    <div class=left-title><h1 style="font-weight: 300">GAME PROJECTS:</h1></div>
-    <div class="col-12 col-md-6 offset-md-3" style="padding: 0px 2% 2%;"><h4>Projects I've completed and projects that are currently in progress. Click on any of them for more details, or keep scrolling to reach the end of the home page and go back up to explore the rest!</h4></div>
-    <div class="vertical-line"></div>
-    <div class="slider" style="">
+  <div class="left-title mt-5 col-md-6 offset-md-3" style="padding-bottom:0px"><h2 style="">Game Projects</h2></div>
+    <!--<div class="col-12 col-md-6 offset-md-3 mt-2" style="padding: 0px 2% 2%; text-align: center;"><h4>Projects I've completed and projects that are currently in progress. Click on any of them for more details, or keep scrolling to reach the end of the home page and go back up to explore the rest!</h4></div>-->
+    <vertLine/>
+      <div class="slider" style="">
     	<div class="slide-track">
     		<div class="slide">
     			<nuxt-link to="/code"><img src="~/assets/img/BORE.jpg" style="height:600px;"/></nuxt-link>
@@ -74,56 +73,9 @@
     		</div>
     	</div>
     </div>
-
-    <div class=left-title><h1 style="font-weight: 300">SKILLS</h1></div>
-    <div class="col-12 col-md-6 offset-md-3" style="padding: 0px 2% 2%;"><h4>A fancy scrollbar that includes the skills I have in my repertoire.</h4></div>
-    <div class="vertical-line"></div>
-    <div class="slider-skills">
-	<div class="slide-track-skills">
-		<div class="slide-skills"><nav></nav>
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide-skills">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-		</div>
-	</div>
-</div>
+    
+    
+    
 
 
     <!-- CONTACT -->
@@ -175,6 +127,13 @@
 </template>
 
 <script>
+import vertLine from "~/components/vertLine.vue";
+
+export default {
+  components: {
+    vertLine,
+  }
+}
 </script>
 
 <style>
@@ -239,10 +198,9 @@
 }
 
 .box .content h3 {
-  font-size: 20px;
+  /*font-size: 20px;*/
   text-align: right;
-  font-weight: 500;
-  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
 }
 
 .box .content h4 {
@@ -255,11 +213,12 @@
 }
 
 /* project gallery */
-div.left-title h1 {
-  margin-top: 10rem;
+div.left-title h2 {
+  border-top:#696c65 1px solid; 
+  border-bottom:#696c65 1px solid;
+  
   text-align: center;
   /*padding-left: 1rem;*/
-  font-size: 3rem;
 }
 
 
@@ -277,7 +236,7 @@ div.left-title h1 {
   }
 
   .box .content h4 {
-    font-size: 1.1vw;
+    font-size: 1em;
   }
 }
 
