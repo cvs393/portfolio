@@ -7,10 +7,17 @@
           <h4 style="margin-bottom: 0px; letter-spacing:5px; font-weight:300; font-size:1.2rem">game designer, &nbsp; artist, &nbsp; hobby programmer.</h4>
         </div>
         <div class="row">
-          <ul class="col-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
+          <ul class="col-4 left-half main-menu" id="main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
             <!--<li><nuxt-link to="/">Home</nuxt-link></li>-->
             <li><nuxt-link to="/art">Art</nuxt-link></li>
-            <li><nuxt-link to="/code">Projects</nuxt-link></li>
+            <li><nuxt-link to="/code">Projects</nuxt-link>
+              <div class="dropdown-content">
+                <a href="#">BORE</a>
+                <a href="#">FIRST STEP OF THE GODS</a>
+                <a href="#">GAME JAMS</a>
+                <a href="#">GAME DESIGN IDEAS</a>
+              </div>
+            </li>
           </ul>
           <ul class="col-4 offset-4 right-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-right:15px;">
             <li><nuxt-link to="/misc">About</nuxt-link></li>
@@ -18,14 +25,15 @@
             <li><nuxt-link to="/contact">Contact</nuxt-link></li>
           </ul>
         </div>
+  
       </div>
 
 
   </div>
 </template>
 
-
 <style scoped>
+
 img {
   z-index: -1;
   display: block;
@@ -47,8 +55,7 @@ img {
  }
 
 .title {
-  font-family: 'made-mirage', 'Segoe UI', -apple-system, BlinkMacSystemFont,
-  Roboto, 'Helvetica Neue', Arial, sans-serif;
+  
   display: block;
   font-weight: 400;
   color:#696c65;
@@ -98,6 +105,24 @@ img {
    padding: 10px 0;
    color: #fa2525;
    /*  #35495e */
+ }
+
+ .main-menu li a:hover {
+   text-decoration: line-through;
+
+ }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 100%;
+  
+  padding: 12px 0px;
+  z-index: 1;
+}
+
+ .main-menu li:hover .dropdown-content {
+   display: block;
  }
 
  @media screen and (min-width: 1612px) {
