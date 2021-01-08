@@ -1,4 +1,5 @@
 <template>
+  
   <div class="thingy" style="position: relative; display:block;">
       <div class="container-fluid">
         <div class="title">
@@ -6,12 +7,11 @@
         <h1 style="font-weight: 300;"><nuxt-link to="/">COURTNEY VALENTINE SPIVEY</nuxt-link></h1>
           <h4 style="margin-bottom: 0px; letter-spacing:5px; font-weight:300; font-size:1.2rem; color: #00000;">game designer, &nbsp; artist, &nbsp; hobby programmer.</h4>
         </div>
-        <div class="row">
-          <ul class="col-4 left-half main-menu" id="main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
+        <div class="row" id="main-menu">
+          <ul class="col-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
             <!--<li><nuxt-link to="/">Home</nuxt-link></li>-->
             <li><nuxt-link to="/">Home</nuxt-link></li>
             <li><nuxt-link to="/about">About</nuxt-link></li>
-            
           </ul>
           <ul class="col-4 offset-4 right-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-right:15px;">
             <li><nuxt-link to="/code">Projects</nuxt-link>
@@ -35,35 +35,49 @@
 </template>
 
 <script>
-window.onscroll = function() {stickyTopNav()};
 
-// Get the navbar
-var navbar = document.getElementById("main-menu");
+export default {
+  mounted() 
+  {
+    window.onscroll = function() {  stickyTopNav()  };
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+    // Get the navbar
+    var navbar = document.getElementById("main-menu");
+    
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+    
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function stickyTopNav() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function stickyTopNav() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+        
+      } else {
+        navbar.classList.remove("sticky");
+        
+      }
+    }
   }
+
 }
 </script>
+
+
+
 <style scoped>
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement 
 *(as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 /*logo*/
