@@ -34,8 +34,39 @@
   </div>
 </template>
 
-<style scoped>
+<script>
+window.onscroll = function() {stickyTopNav()};
 
+// Get the navbar
+var navbar = document.getElementById("main-menu");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickyTopNav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<style scoped>
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement 
+*(as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*logo*/
 img {
   z-index: -1;
   display: block;
@@ -44,7 +75,7 @@ img {
   top: 50%;
   transform: translate(-50%, -50%); 
   position: absolute;
-  opacity: 70%;
+  /*opacity: 70%;*/
 }
 
 .thingy {

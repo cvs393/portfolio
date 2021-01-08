@@ -1,6 +1,7 @@
 {
   "entry": "server.js",
   "files": {
+    "pages/about.js": "pages/about.js",
     "pages/art.js": "pages/art.js",
     "pages/code.js": "pages/code.js",
     "pages/contact.js": "pages/contact.js",
@@ -8,11 +9,11 @@
     "pages/gameProjects/FSoTG.js": "pages/gameProjects/FSoTG.js",
     "pages/gameProjects/gameJams.js": "pages/gameProjects/gameJams.js",
     "pages/index.js": "pages/index.js",
-    "pages/misc.js": "pages/misc.js",
     "pages/resume.js": "pages/resume.js",
     "server.js": "server.js"
   },
   "maps": {
+    "pages/about.js": "pages/about.js.map",
     "pages/art.js": "pages/art.js.map",
     "pages/code.js": "pages/code.js.map",
     "pages/contact.js": "pages/contact.js.map",
@@ -20,7 +21,6 @@
     "pages/gameProjects/FSoTG.js": "pages/gameProjects/FSoTG.js.map",
     "pages/gameProjects/gameJams.js": "pages/gameProjects/gameJams.js.map",
     "pages/index.js": "pages/index.js.map",
-    "pages/misc.js": "pages/misc.js.map",
     "pages/resume.js": "pages/resume.js.map",
     "server.js": "server.js.map"
   }
