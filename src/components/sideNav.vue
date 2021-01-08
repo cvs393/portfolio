@@ -4,7 +4,7 @@
         <div class="title">
           <img src="~/assets/img/Final_logo.png">
         <h1 style="font-weight: 300;"><nuxt-link to="/">COURTNEY VALENTINE SPIVEY</nuxt-link></h1>
-          <h4 style="margin-bottom: 0px; letter-spacing:5px; font-weight:300; font-size:1.2rem">game designer, &nbsp; artist, &nbsp; hobby programmer.</h4>
+          <h4 style="margin-bottom: 0px; letter-spacing:5px; font-weight:300; font-size:1.2rem; color: #00000;">game designer, &nbsp; artist, &nbsp; hobby programmer.</h4>
         </div>
         <div class="row">
           <ul class="col-4 left-half main-menu" id="main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
@@ -55,7 +55,6 @@ img {
  }
 
 .title {
-  
   display: block;
   font-weight: 400;
   color:#696c65;
@@ -83,7 +82,9 @@ img {
   text-decoration: none;
 }
 
- 
+.h4 {
+  
+}
  .main-menu {
    display: flex;
    justify-content: space-evenly;

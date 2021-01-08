@@ -3,10 +3,7 @@
   <div class="contact">
     <!--<h1 style="padding: 45px;"> CONTACT </h1>-->
   </div>
-  <div class="info">
-    <h2> EMAIL: cvs393@utulsa.edu </h2>
-    <h2> LOCATION: Dundee, UK </h2>
-  </div>
+  
 </div>
 </template>
 

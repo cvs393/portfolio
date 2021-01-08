@@ -1,7 +1,7 @@
 exports.ids = [1];
 exports.modules = {
 
-/***/ 90:
+/***/ 92:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16,7 +16,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./src/pages/art.vue?vue&type=template&id=791b6dfb&scoped=true&
 
 // EXTERNAL MODULE: ./src/components/gallery.vue + 4 modules
-var gallery = __webpack_require__(12);
+var gallery = __webpack_require__(13);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/pages/art.vue?vue&type=script&lang=js&
 //
@@ -60,7 +60,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var art = __webpack_exports__["default"] = (component.exports);
 
 /* nuxt-component-imports */
-installComponents(component, {Gallery: __webpack_require__(12).default})
+installComponents(component, {Gallery: __webpack_require__(13).default})
 
 
 /***/ })
