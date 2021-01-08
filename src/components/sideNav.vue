@@ -16,10 +16,10 @@
           <ul class="col-4 offset-4 right-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-right:15px;">
             <li><nuxt-link to="/code">Projects</nuxt-link>
               <div class="dropdown-content">
-                <a href="#">BORE</a>
-                <a href="#">FIRST STEP OF THE GODS</a>
-                <a href="#">GAME JAMS</a>
-                <a href="#">GAME DESIGN IDEAS</a>
+                <a href="/gameProjects/BORE">BORE</a>
+                <a href="/gameProjects/FTToTG">FIRST STEP OF THE GODS</a>
+                <a href="/gameProjects/gameJams">GAME JAMS</a>
+                <a href="/gameProjects/BORE">GAME DESIGN IDEAS</a>
               </div>
             </li>
             <li><nuxt-link to="/art">Art</nuxt-link></li>

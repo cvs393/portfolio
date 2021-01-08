@@ -123,7 +123,7 @@
     <div class="vertical-line"></div>
     <div class="col-12 col-md-6 offset-md-3" style="padding: 2% 2% 0px; text-align: center;"><h4 style="font-weight: 500;">Want to work with me?</h4>
     <h4>For inquiries, commissions, collaborations, and jobs refer to the footer for ways to get in touch with me. I look forward to meeting you!</h4>
-    <h4>This website was created using Vue.js, Nuxt, Bootstrap 4 and Firebase. All the code and assets are available on my <a href="www.github.com/cvs393/">Github</a>.</h4></div>
+    <h4>This website was created using Vue.js, Nuxt, Bootstrap 4 and Firebase. All the code and assets are available on my <a href="www.github.com/cvs393/">Github</a>. Please refrain from using my art and project assets without permission.</h4></div>
     <div class="top-button"><button><nuxt-link to="#">Top of Page</nuxt-link></button></div>
     <!-- CONTACT -->
 
