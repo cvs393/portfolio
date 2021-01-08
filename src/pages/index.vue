@@ -2,9 +2,10 @@
 <template>
   <main>
     <!-- HOME SCREEN -->
+    <div style="padding: 80px;"></div>
     <div class="container-fluid">
       <section class="row">
-        <div class="box col-12 offset-md-2 col-md-10 mt-5">
+        <div class="box col-12 offset-md-2 col-md-10">
           <div class="container-fluid">
             <div class="row">
               <div class="image col-12 col-md-6 order-md-2">
@@ -39,50 +40,12 @@
     </div>
     <!-- END HOME SCREEN -->
 
-    <!-- ART SECTION -->
-
-        <!-- PROJECT OVERVIEW SECTION -->
-  <div class="left-title mt-5 col-md-6 offset-md-3" style="padding-bottom:0px"><h2 style="">Game Projects</h2></div>
-    <!--<div class="col-12 col-md-6 offset-md-3 mt-2" style="padding: 0px 2% 2%; text-align: center;"><h4>Projects I've completed and projects that are currently in progress. Click on any of them for more details, or keep scrolling to reach the end of the home page and go back up to explore the rest!</h4></div>-->
+     <!-- Misc -->
+    
     <vertLine/>
-      <div class="slider" style="">
-    	<div class="slide-track">
-    		<div class="slide">
-    			<nuxt-link to="/code"><img src="~/assets/img/BORE.jpg" style="height:600px;"/></nuxt-link>
-    		</div>
-    		<div class="slide">
-    			<nuxt-link to="/code"><img src="~/assets/img/FIRST_STEP_TO_THE_GODS.png" style="height:600px;"/></nuxt-link>
-    		</div>
-    		<div class="slide">
-    			<nuxt-link to="/code"><img src="~/assets/img/UKIE.png" style="height:600px;"/></nuxt-link>
-    		</div>
-    		<div class="slide">
-    		<nuxt-link to="/code"><img src="~/assets/img/bg.jpg" style="height:600px;"/></nuxt-link>
-    		</div>
-        <div class="slide">
-    			<nuxt-link to="/code"><img src="~/assets/img/BORE.jpg" style="height:600px;"/></nuxt-link>
-    		</div>
-    		<div class="slide">
-    			<nuxt-link to="/code"><img src="~/assets/img/FIRST_STEP_TO_THE_GODS.png" style="height:600px;"/></nuxt-link>
-    		</div>
-    		<div class="slide">
-    			<nuxt-link to="/code"><img src="~/assets/img/UKIE.png" style="height:600px;"/></nuxt-link>
-    		</div>
-    		<div class="slide">
-    		<nuxt-link to="/code"><img src="~/assets/img/bg.jpg" style="height:600px;"/></nuxt-link>
-    		</div>
-    	</div>
-    </div>
-    
-    
-    
-
-
-    <!-- CONTACT -->
-    <div class=left-title><h1> </h1></div>
     <div class="container-fluid">
       <section class="row">
-        <div class="box col-12 col-md-10 offset-1 mt-5">
+        <div class="box col-12 col-md-10"> <!--offset-1 mt-5-->
           <div class="container-fluid">
             <div class="row">
               <div class="image col-12 col-md-6 order-md-2">
@@ -114,10 +77,53 @@
         </div>
       </section>
     </div>
-    <div class="left-title col-12 col-md-8 offset-md-2" style=""><h1 style="font-weight: 300; font-size: 4rem; text-align: center; ">WELCOME TO THE END OF THE HOMEPAGE. </h1></div>
+    
+
+        <!-- PROJECT OVERVIEW SECTION -->
+    
+   <padding/>
+  <div class="left-title  col-md-6 offset-md-3" style="padding-bottom:20px; padding-top: 40px;">
+    <h2 style="">Game Projects</h2>
+    <h4> Projects I've completed and projects that are currently in progress. </h4>
+  </div>
+    <!--<div class="col-12 col-md-6 offset-md-3 mt-2" style="padding: 0px 2% 2%; text-align: center;"><h4>Projects I've completed and projects that are currently in progress. Click on any of them for more details, or keep scrolling to reach the end of the home page and go back up to explore the rest!</h4></div>-->
+    <vertLine/>
+      <div class="slider" style="">
+    	<div class="slide-track">
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/BORE.jpg" style="height:700px;"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/FIRST_STEP_TO_THE_GODS.png" style="height:700px;"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/UKIE.png" style="height:700px;"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    		<nuxt-link to="/code"><img src="~/assets/img/bg.jpg" style="height:700px;"/></nuxt-link>
+    		</div>
+        <div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/BORE.jpg" style="height:700px;"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/FIRST_STEP_TO_THE_GODS.png" style="height:700px;"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    			<nuxt-link to="/code"><img src="~/assets/img/UKIE.png" style="height:700px;"/></nuxt-link>
+    		</div>
+    		<div class="slide">
+    		<nuxt-link to="/code"><img src="~/assets/img/bg.jpg" style="height:600px;"/></nuxt-link>
+    		</div>
+    	</div>
+    </div>
+    
+    <vertLine/>
+    <div class="left-title col-12 col-md-8 offset-md-2" style=""><h1 style="font-weight: 300; font-size: 4rem; text-align: center; ">YOU'VE REACHED THE END OF THE HOMEPAGE.</h1>
+    </div>
     <div class="vertical-line"></div>
-    <div class="col-12 col-md-6 offset-md-3" style="padding: 2% 2% 0px;"><h4>Feel free to get a coffee break or check out your insta feed real quick. Don't worry, this page will still be here. Or scroll back up and look through some of the other tabs, I don't mind.</h4></div>
-    <div class="col-12 col-md-6 offset-md-3" style="padding: 0px 2% 2%;"><h4>This website was created using Vue.js, Nuxt, Bootstrap 4 and Firebase. All the code and assets are available on my GITHUB (fair warning, it's fairly deserted and a work in progress), feel free to check that out if you thought this looked cool or whatever ;) Cheers!</h4></div>
+    <div class="col-12 col-md-6 offset-md-3" style="padding: 2% 2% 0px; text-align: center;"><h4 style="font-weight: 500;">Want to work with me?</h4>
+    <h4>For inquiries, commissions, collaborations, and jobs refer to the footer for ways to get in touch with me. I look forward to meeting you!</h4>
+    <h4>This website was created using Vue.js, Nuxt, Bootstrap 4 and Firebase. All the code and assets are available on my <a href="www.github.com/cvs393/">Github</a>.</h4></div>
     <div class="top-button"><button><nuxt-link to="#">Top of Page</nuxt-link></button></div>
     <!-- CONTACT -->
 
@@ -128,10 +134,11 @@
 
 <script>
 import vertLine from "~/components/vertLine.vue";
-
+import padding from "~/components/padding.vue";
 export default {
   components: {
     vertLine,
+    padding,
   }
 }
 </script>
@@ -213,7 +220,7 @@ export default {
 }
 
 /* project gallery */
-div.left-title h2 {
+div.left-title {
   border-top:#696c65 1px solid; 
   border-bottom:#696c65 1px solid;
   

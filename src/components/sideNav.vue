@@ -9,7 +9,11 @@
         <div class="row">
           <ul class="col-4 left-half main-menu" id="main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
             <!--<li><nuxt-link to="/">Home</nuxt-link></li>-->
-            <li><nuxt-link to="/art">Art</nuxt-link></li>
+            <li><nuxt-link to="/">Home</nuxt-link></li>
+            <li><nuxt-link to="/misc">About</nuxt-link></li>
+            
+          </ul>
+          <ul class="col-4 offset-4 right-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-right:15px;">
             <li><nuxt-link to="/code">Projects</nuxt-link>
               <div class="dropdown-content">
                 <a href="#">BORE</a>
@@ -18,11 +22,9 @@
                 <a href="#">GAME DESIGN IDEAS</a>
               </div>
             </li>
-          </ul>
-          <ul class="col-4 offset-4 right-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-right:15px;">
-            <li><nuxt-link to="/misc">About</nuxt-link></li>
+            <li><nuxt-link to="/art">Art</nuxt-link></li>
             <!--<li><nuxt-link to="/resume">Resume</nuxt-link></li>-->
-            <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+            
           </ul>
         </div>
   
@@ -82,9 +84,6 @@ img {
   text-decoration: none;
 }
 
-.h4 {
-  
-}
  .main-menu {
    display: flex;
    justify-content: space-evenly;

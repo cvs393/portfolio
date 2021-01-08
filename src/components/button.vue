@@ -8,7 +8,7 @@
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 1px #8b1606;
+		box-shadow: inset 0 0 0 1px #f12e27;
 		color: #8b1606 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -30,9 +30,17 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-            background-color: #fa2525;
-            box-shadow: inset 0 0 0 1px 	#696c65;
+            background-color: #f12e27;
+			/*box-shadow: inset 0 0 0 1px 	#696c65;*/
+			
 		color: 	#474b41 !important;
+		}
+		a {
+			color:#f12e27;
+		}
+		a:hover {
+			color:#696c65;
+			text-decoration: line-through;
 		}
 
 		input[type="submit"]:active,

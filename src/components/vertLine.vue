@@ -6,7 +6,7 @@
     .vertical-line {
       width: 1px;
       background-color: #696c65;
-      height: 200px;
+      height: 230px;
       position: relative;
       left: 50%;
       top: 0;
