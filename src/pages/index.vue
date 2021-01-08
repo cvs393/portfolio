@@ -78,16 +78,20 @@
       </section>
     </div>
     
+  <!-- PROJECT GALLERY SECTION -->
+  <padding/>
+  
 
         <!-- PROJECT OVERVIEW SECTION -->
     
    <padding/>
-  <div class="left-title  col-md-6 offset-md-3" style="padding-bottom:20px; padding-top: 40px;">
+  <div class="left-title col-md-6 offset-md-3" style="padding-bottom:20px; padding-top: 40px;">
     <h2 style="">Game Projects</h2>
     <h4> Projects I've completed and projects that are currently in progress. </h4>
   </div>
-    <!--<div class="col-12 col-md-6 offset-md-3 mt-2" style="padding: 0px 2% 2%; text-align: center;"><h4>Projects I've completed and projects that are currently in progress. Click on any of them for more details, or keep scrolling to reach the end of the home page and go back up to explore the rest!</h4></div>-->
     <vertLine/>
+    <projectGallery/>
+    <!--
       <div class="slider" style="">
     	<div class="slide-track">
     		<div class="slide">
@@ -116,7 +120,7 @@
     		</div>
     	</div>
     </div>
-    
+    -->
     <vertLine/>
     <div class="left-title col-12 col-md-8 offset-md-2" style=""><h1 style="font-weight: 300; font-size: 4rem; text-align: center; ">YOU'VE REACHED THE END OF THE HOMEPAGE.</h1>
     </div>
@@ -135,10 +139,12 @@
 <script>
 import vertLine from "~/components/vertLine.vue";
 import padding from "~/components/padding.vue";
+import projectGallery from "~/components/projectGallery.vue";
 export default {
   components: {
     vertLine,
     padding,
+    projectGallery,
   }
 }
 </script>

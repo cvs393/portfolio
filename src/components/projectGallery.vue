@@ -1,17 +1,45 @@
+
+<template>
+    <div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <nuxt-link to="gameProjects/BORE"><img src="~/assets/img/BORE.jpg" style="width:100%"></nuxt-link>
+            </div>
+            <div class="mySlides fade">
+              <nuxt-link to="/gameProjects/FSoTG"><img src="~/assets/img/GODS.jpg" style="width:100%"></nuxt-link>
+            </div>
+            <div class="mySlides fade">
+              <nuxt-link to="/gameProjects/gameJams"><img src="~/assets/img/UKIE_GJ.jpg" style="width:100%"></nuxt-link>
+            </div>
+            <div class="mySlides fade">
+              <nuxt-link to="/gallery"><img src="~/assets/img/ART.PNG" style="width:100%"></nuxt-link>
+              <div class="text">ART GALLERY</div>
+            </div>
+        </div>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+        </div>
+    </div>
+</template>
+
 <style scoped>
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;
-height:500px;}
+}
 
 /* Slideshow container */
 .slideshow-container {
-  /*max-width: 1000px;*/
+  max-width: 1200px;
   position: relative;
   margin: auto;
   height: 100%;
-  width: 100%;
+  
   overflow: hidden;
   object-fit: cover;
 }
@@ -19,7 +47,7 @@ height:500px;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #413e3e;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -28,45 +56,31 @@ height:500px;}
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
+  height: 2px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+  background-color:  #520303;
+  /*border-radius: 50%;*/
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: rgb(255, 0, 0);
 }
 
 /* Fading animation */
 .fade {
-
   animation-name: fade;
-  animation-duration: 2.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  animation-duration: 4s;
 }
 
 @keyframes fade {
   from {opacity: .4} 
-  to {opacity: 1}
+  to {opacity: .9}
 }
 
 /* On smaller screens, decrease text size */
@@ -75,44 +89,6 @@ height:500px;}
 }
 </style>
 
-<template>
-    <div>
-
-<h2>Automatic Slideshow</h2>
-<p>Change image every 2 seconds:</p>
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="~/assets/img/BORE.jpg" style="width:100%">
-  <div class="text">BORE</div>
-</div>
-
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="~/assets/img/GODS.jpg" style="width:100%">
-  <div class="text">GODS</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="~/assets/img/UKIE_GJ.jpg" style="width:100%">
-  <div class="text">GAME JAMS</div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-    </div>
-</template>
 
 
 <script scoped>

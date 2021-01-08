@@ -17,7 +17,7 @@
             <li><nuxt-link to="/code">Projects</nuxt-link>
               <div class="dropdown-content">
                 <a href="/gameProjects/BORE">BORE</a>
-                <a href="/gameProjects/FTToTG">FIRST STEP OF THE GODS</a>
+                <a href="/gameProjects/FSoTG">FIRST STEP OF THE GODS</a>
                 <a href="/gameProjects/gameJams">GAME JAMS</a>
                 <a href="/gameProjects/BORE">GAME DESIGN IDEAS</a>
               </div>

@@ -24,29 +24,31 @@
 
 <script>
 import photos from '@/photos.json';
+
 export default {
-  name: 'Photosss',
-  data() {
-    return {
-      photos,
-    };
-  },
-  computed: {
-    photo() {
-      return this.photos.find((photo) => {
-        return photo.id === Number(this.$route.params.id);
-      });
+  
+    name: 'Photosss',
+    data() {
+      return {
+        photos,
+      };
     },
-  },
-  methods: {
-    photoUrl(filename) {
-      return require(`../assets/gallery/${filename}`);
+    computed: {
+      photo() {
+        return this.photos.find((photo) => {
+          return photo.id === Number(this.$route.params.id);
+        });
+      },
     },
-    closeLightbox() {
-      this.$router.push('/');
-    }
-  },
-};
+    methods: {
+      photoUrl(filename) {
+        return require(`../assets/gallery/${filename}`);
+      },
+      closeLightbox() {
+        this.$router.push('/');
+      },
+    },
+}
 </script>
 
 <style>
