@@ -1,17 +1,6 @@
 <template>
+
     <div> 
-    <h1>GAME PROJECTS</h1>
-    <div class="container-fluid">
-      <section class="row">
-        <div class="project-desc col-md-3 offset-md-1 mt-5" style="text-align:right; border:#696c65 1px solid;">
-          <h2> BORE </h2>
-          <h4> Bore was the first long term game project I had at the University of Abertay. Along with my teammates, we created a dyspotia bllah  we   created   a dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah  we  created a  dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah  we  created a   dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah  we   created a  dyspotia bllah  we created a dyspotia bllah  we created a dyspotia bllah ... credits go to all these people::::: ok read more to see   the full  process... </h4>
-        </div>
-        <div class="project-video col-md-8 mt-5">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/lX6JcybgDFo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe> 
-        </div>
-      </section>  
       <div class="project-desc col-12 offset-md-2 col-md-8 mt-5"><h2 style="text-align:center;">TEAM</h2>
           <h4 style="text-align:center;">Art: Matthew Jenkins, Courtney Spivey</h4><h4 style="text-align:center;">Design: Courtney Spivey, Matthew Jenkins, Wayne Yiqun Guo, Michelangelo Bedetti</h4><h4 style="text-align:center;">Producer: Michelangelo Bedetti</h4><h4 style="text-align:center;">Programmers: Robin Couwenberg, Heather Cochrane</h4>
       </div>
@@ -25,6 +14,6 @@
         <div class="project-desc col-12 offset-md-2 col-md-8 mt-5"><h2 style="text-align:center;">EXECUTION</h2></div>
           <h4> DESIGN AND UI, AND WHY THE TWO ARE DIFFERENT </h4>
       </div>
-      </div>
     </div>
+
 </template>

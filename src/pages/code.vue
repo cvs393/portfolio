@@ -28,8 +28,36 @@
           </div>
         </section> 
         <vertLine/>
-    </div>
-      <button><nuxt-link to="/gameProjects/gameJams">Other Projects (Game Jams)</nuxt-link></button>
+        </div>
+
+      <div class="container-fluid">
+        <section class="row">
+          <div class="project-desc col-md-3 offset-md-1" style="text-align:right; border:#696c65 1px solid;">
+            <h2> UKIE GAME JAM </h2>
+            <h4> During the 2020 annual 48 hour UKIE game jam I worked alongside four Abertay students to create The KIND-ers. The theme was on diversity and inclusion as a game concept and because we wanted to stray from any and every human stereotype we decided on a children's theme with basic blocks as characters.</h4>
+          <button><nuxt-link to="/gameProjects/gameJams">Read More</nuxt-link></button>
+        </div>
+        <div class="project-video col-md-8">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/O52yKHyt1vo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </section>
+      </div>
+      <vertLine/>
+      <div class= "container-fluid" style="padding: 0px 0px;">
+        <section class="row">
+            <div class="project-video col-md-8 ">
+              <iframe class="responsive-iframe" src="https://www.youtube.com/embed/lX6JcybgDFo" frameborder="0" allow="accelerometer; autoplay;     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe> 
+            </div>
+          <div class="project-desc col-md-3 " style="text-align:left; border:#696c65 1px solid;">
+            <h2>HELL JAM</h2>
+            <h4> Hell jam was a hot mess. </h4>
+            <button><nuxt-link to="/gameProjects/gameJams">Read More</nuxt-link></button>
+            <div style="padding-bottom: 10px;"></div>
+          </div>
+        </section> 
+        
+        </div>
   </div>
 
   </div>

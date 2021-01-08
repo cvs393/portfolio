@@ -4,15 +4,18 @@
         <div class="slideshow-container">
             <div class="mySlides fade">
               <nuxt-link to="gameProjects/BORE"><img src="~/assets/img/BORE.jpg" style="width:100%"></nuxt-link>
+              <div class="text">SEMESTER LONG TEAM PROJECT AT ABERTAY UNI</div>
             </div>
             <div class="mySlides fade">
               <nuxt-link to="/gameProjects/FSoTG"><img src="~/assets/img/GODS.jpg" style="width:100%"></nuxt-link>
+              <div class="text">CONTRACT ARTIST FOR A CLIENT DIRECTED GAME</div>
             </div>
             <div class="mySlides fade">
               <nuxt-link to="/gameProjects/gameJams"><img src="~/assets/img/UKIE_GJ.jpg" style="width:100%"></nuxt-link>
+              <div class="text">PICTURED: THE KIND-ers, A UKIE GAME JAM</div>
             </div>
             <div class="mySlides fade">
-              <nuxt-link to="/gallery"><img src="~/assets/img/ART.PNG" style="width:100%"></nuxt-link>
+              <nuxt-link to="/art"><img src="~/assets/img/ART.PNG" style="width:100%"></nuxt-link>
               <div class="text">ART GALLERY</div>
             </div>
         </div>
@@ -47,7 +50,7 @@ img {vertical-align: middle;
 
 /* Caption text */
 .text {
-  color: #413e3e;
+  color: #ff0000;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
