@@ -1,0 +1,63 @@
+<template>
+    <div>
+        <div class="about offset-md-2 col-md-8 mt-5">
+            <h1>ABOUT ME</h1></div>
+          
+            <div class="about col-md-10 offset-md-1 mt-5">
+            <h2>I enjoy working hard on team &amp; personal passion projects.</h2></div>
+            <div class="about offset-md-2 col-md-8 mt-3" style="text-align: justify">
+            <h4> Teamwork has always been fundamental to game pojects I've worked on. Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?</h4></div>
+            <vertLine/>
+            <div class="about offset-md-1 col-md-10 mt-5" style="text-align: right">
+            <h2>I am a STEAM advocate and understand that diversity &amp; inclusion are not only necessary in gaming, but are required for creating impactful games.</h2></div>
+            <div class="about offset-md-2 col-md-8 mt-3" style="text-align: justify"><h4> CLUB EXPERIENCE GOES HERE Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?</h4></div>
+            <vertLine/>
+            <div class="about col-md-10 offset-md-1 mt-5"><h2>I strive to know as much about developing games as I can, and thus have a wide range of compentencies.</h2></div>
+            <div class="about offset-md-2 col-md-8 mt-3" style="text-align: justify"><h4> Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?</h4></div>
+        <vertLine/>
+        <!--</div>-->
+        <h1>TESTIMONIALS</h1>
+        
+        <div class="table-contents offset-md-2 col-md-8 mt-5"> <!---->
+            <div>FIRST LAST</div>
+            <div>FIRST LAST</div>
+            <div>FIRST LAST</div>
+            <div>Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?</div>
+            <div>Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?</div>
+            <div>Dolorem saepe accusamus sed placeat porro ex, ab, vel eaque libero incidunt facilis delectus, iure odio dicta error consequuntur perspiciatis  quasi? Corrupti incidunt quia asperiores quo magnam at minima laudantium?</div>
+            
+        </div>
+        
+    </div>
+</template>
+
+<script>
+import vertLine from "~/components/vertLine.vue";
+import padding from "~/components/padding.vue";
+export default {
+  components: {
+    vertLine,
+    padding,
+  }
+}
+</script>
+
+<style scoped>
+h4 {
+  /*font-weight: 500;*/
+  font-size: 1.5rem;
+}
+.table-contents {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: 80px auto;
+     grid-gap: 10px;
+}
+.table-contents > div {
+  padding: 1.5rem 1rem;
+  border:#696c65 1px solid;
+  text-align: center;
+  
+}
+
+</style>
