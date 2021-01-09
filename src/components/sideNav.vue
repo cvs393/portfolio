@@ -3,7 +3,7 @@
   <div class="thingy" style="position: relative; display:block;">
       <div class="container-fluid">
         <div class="title">
-          <img src="~/assets/img/Final_logo.png">
+          <img src="~/assets/img/site_logo.png">
         <h1 style="font-weight: 300;"><nuxt-link to="/">COURTNEY VALENTINE SPIVEY</nuxt-link></h1>
           <h4 style="margin-bottom: 0px; letter-spacing:5px; font-weight:300; font-size:1.2rem; color: #00000;">game designer, &nbsp; artist, &nbsp; hobby programmer.</h4>
         </div>
@@ -89,7 +89,6 @@ img {
   top: 50%;
   transform: translate(-50%, -50%); 
   position: absolute;
-  /*opacity: 70%;*/
 }
 
 .thingy {
