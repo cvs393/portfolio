@@ -11,7 +11,7 @@
               <div class="image col-12 col-md-6 order-md-2">
                 <div class="cage">
                   <h1>HOME</h1>
-                  <img src="~/assets/img/profile.jpg">
+                  <img src="~/assets/gallery/2.png">
                 </div>
               </div>
               <div class="col-12 col-md-6 order-md-1 content">
@@ -51,7 +51,7 @@
               <div class="image col-12 col-md-6 order-md-2">
                 <div class="cage">
                   <h1>MISC.</h1>
-                  <img src="~/assets/gallery//peacekeeper/peacekeeper_gif.gif">
+                  <img src="~/assets/gallery//peacekeeper/peacekeeper_still.png">
                 </div>
               </div>
               <div class="col-12 col-md-6 order-md-1 content">

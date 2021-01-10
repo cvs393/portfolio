@@ -1,8 +1,9 @@
 <template>
     <div>
         <div class="about offset-md-2 col-md-8 mt-5">
+            <sliderText/>
             <h1>ABOUT ME</h1></div>
-          
+            
             <div class="about col-md-10 offset-md-1 mt-5">
             <h2>I enjoy working hard on team &amp; personal passion projects.</h2></div>
             <div class="about offset-md-2 col-md-8 mt-3" style="text-align: justify">
@@ -34,10 +35,12 @@
 <script>
 import vertLine from "~/components/vertLine.vue";
 import padding from "~/components/padding.vue";
+import sliderText from "~/components/sliderText.vue";
 export default {
   components: {
     vertLine,
     padding,
+    sliderText,
   }
 }
 </script>

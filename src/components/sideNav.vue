@@ -72,6 +72,7 @@ export default {
   top: 0;
   width: 100%;
   z-index: 1;
+  
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement 
@@ -89,6 +90,7 @@ img {
   top: 50%;
   transform: translate(-50%, -50%); 
   position: absolute;
+  opacity: 70%;
 }
 
 .thingy {
