@@ -1,6 +1,7 @@
 <template>
   
   <div class="thingy" style="position: relative; display:block;">
+      <!--<sliderText/> later buddy--> 
       <div class="container-fluid">
         <div class="title">
           <img src="~/assets/img/site_logo.png">
@@ -35,8 +36,12 @@
 </template>
 
 <script>
+import sliderText from "~/components/sliderText.vue";
 
 export default {
+  components: {
+    sliderText,
+  },
   mounted() 
   {
     window.onscroll = function() {  stickyTopNav()  };

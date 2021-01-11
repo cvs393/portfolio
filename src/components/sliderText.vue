@@ -1,6 +1,7 @@
 <template>
     <div>
-      <div class="content-slider">
+      <div class="row">
+      <div class="content-slider col-4">
         <div class="slider">
           <div class="mask">
             <ul>
@@ -27,14 +28,43 @@
             </ul>
           </div>
         </div>
-</div>
+      </div>
+      <div class="content-slider offset-4 col-4">
+        <div class="slider">
+          <div class="mask">
+            <ul>
+              <li class="anim1">
+                <div class="quote">Hello, this is a quote from a person.</div>
+                <div class="source-right">- Person</div>
+              </li>
+              <li class="anim2">
+                <div class="quote">Hello, this is a quote from another person.</div>
+                <div class="source-right">- Another person</div>
+              </li>
+              <li class="anim3">
+                <div class="quote">Hello, this is a quote from an animal.</div>
+                <div class="source-right">- Animal</div>
+              </li>
+              <li class="anim4">
+                <div class="quote">Hello, this is a quote from a plant.</div>
+                <div class="source-right">- Plant</div>
+              </li>
+              <li class="anim5">
+                <div class="quote">How do ya like that.</div>
+                <div class="source-right">- Cassidy</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 </template>
 
 <style lang="css" scoped>
 html,
 body {
-  font-family: 'made-mirage';
+  
 }
 h1 {
   font-size: 60px;
@@ -43,7 +73,7 @@ h1 {
 
 .content-slider {
   width: 100%;
-  height: 360px;
+  height: 100px;
 }
 
 .slider {
@@ -56,7 +86,7 @@ h1 {
 
 .mask {
   overflow: hidden;
-  height: 320px;
+  height: 100px;
 }
 
 .slider ul {
@@ -66,7 +96,7 @@ h1 {
 }
 
 .slider li {
-  width: 680px;
+  width: 33vw;
   height: 320px;
   position: absolute;
   top: -325px;
@@ -74,13 +104,20 @@ h1 {
 }
 
 .slider .quote {
-  font-size: 40px;
+  font-size: 20px;
   font-style: italic;
+  font-family: 'made-mirage';
 }
 
 .slider .source {
-  font-size: 20px;
+  font-size: 16px;
   text-align: right;
+  font-family: 'made-mirage';
+}
+.slider .source-right {
+  font-size: 16px;
+  text-align: left;
+  font-family: 'made-mirage';
 }
 
 .slider li.anim1 {
@@ -104,7 +141,7 @@ h1 {
 }
 
 .slider:hover li {
-  animation-play-state: paused;
+ /* animation-play-state: paused;*/
 }
 
 @keyframes cycle {

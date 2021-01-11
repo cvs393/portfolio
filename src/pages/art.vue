@@ -1,14 +1,5 @@
-<template>
-  <div>
-    <sliderText/>
 
-</div>
-
-
-
-<!--
-  
-<template>
+<!--<template>
     <Gallery />
 </template>
 
@@ -24,145 +15,72 @@ export default {
 
 <style scoped>
 
-</style>
--->
+</style>-->
 
+<template scoped>
+  <div>
+  <h1 style="text-align:center">GALLERY</h1>
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  
+<div class="container">
+  <div class="row">
+    <a href="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/93cf7b104643873.5f67d09add779.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="~/assets/gallery/1.png" class="img-fluid rounded">
+    </a>
+    <a href="https://mir-s3-cdn-cf.behance.net/project_modules/fs/a4ba6b104643873.5f67d09addcc4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="~/assets/gallery/2.png" class="img-fluid rounded">
+    </a>
+    <a href="~/assets/gallery/3.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="~/assets/gallery/3.png" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="~/assets/gallery/4.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="~/assets/gallery/4.png" class="img-fluid rounded">
+    </a>
+    <a href="~/assets/gallery/5.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="~/assets/gallery/5.png" class="img-fluid rounded">
+    </a>
+    <a href="~/assets/gallery/6.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="~/assets/gallery/6.png" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="~/assets/gallery/8.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="~/assets/gallery/8.png" class="img-fluid rounded">
+    </a>
+    <a href="~/assets/gallery/9.PNG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="~/assets/gallery/9.PNG" class="img-fluid rounded">
+    </a>
+    <a href="~/assets/gallery/10.PNG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="~/assets/gallery/10.PNG" class="img-fluid rounded">
+    </a>
+  </div>
+</div>
+
+  </div>
 </template>
 
-<script>
-import sliderText from "~/components/sliderText.vue";
+<script scoped>
 export default {
-  components: {
-    sliderText,
+  mounted()
+  {
+      $(document).on("click", '[data-toggle="lightbox"]', function(event) 
+      {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
   }
 }
-    //import Vue from 'vue';
-    //
-    //
-    //
-    //
-    //  Vue.use(Lightbox);
-    //
-    //var photoDir = 
-    //  'https://unpkg.com/vue-my-photos@1.0.0/src/assets/';
-    //
-    //var imageList = 
-    //  [{'name':'mountains.jpg', 
-    //    'alt':'The Dolomites', 
-    //    'filter':'nature',
-    //    'id':'image1' },
-    //   
-    //   {'name':'bird.jpg', 
-    //    'alt':'It is a bird on a tree!', 
-    //    'filter':'animals',
-    //    'id':'image2'  }, 
-    //   
-    //   {'name':'alps.jpg', 
-    //    'alt':'I will live here someday', 
-    //    'filter':'nature',
-    //    'id':'image3'  },
-    //   
-    //   {'name':'bear.jpg', 
-    //    'alt':'Friendly bear', 
-    //    'filter':'animals',
-    //    'id':'image4'  },
-    //   
-    //   {'name':'canyon.jpg', 
-    //    'alt':'A worthy hike', 
-    //    'filter':'nature',
-    //    'id':'image5'  },
-    //   
-    //   {'name':'monumentvalley.jpg', 
-    //    'alt':'Monument Valley', 
-    //    'filter':'nature',
-    //    'id':'image6'  },
-    //   
-    //   {'name':'puppy.jpg', 
-    //    'alt':'Puppy with a feather', 
-    //    'filter':'animals',
-    //    'id':'image7'  }, 
-    //   
-    //   {'name':'redwoods.jpg', 
-    //    'alt':'Foggy evening in the Redwoods', 
-    //    'filter':'nature',
-    //    'id':'image8'  } ];
-    //
-    //new Vue({
-    //  el: '#app',
-    //  data() {
-    //    return {
-    //      thumbnailDir: photoDir,
-    //      images: imageList,
-    //      galleryFilter: 'all'
-    //    }
-    //  },
-    //  methods: {
-    //    showLightbox: function(imageName) {
-    //      this.$refs.lightbox.show(imageName);
-    //    },
-    //    updateFilter(filterName) {
-    //      this.galleryFilter = filterName;
-    //    }
-    //  },
-    //  computed: {
-    //    filteredImages: function() {
-    //      if (this.galleryFilter === 'all') {
-    //        return this.images;
-    //      } else {
-    //        return this.images.filter(image => image.filter === this.galleryFilter);
-    //      }
-    //    }
-    //  }
-    //})
-    //export default {
-    //  
-    //}
 </script>
 
-<style scoped>#app {
-  font-family: 'Avenir', 
-               Helvetica,
-               sans-serif;
-  text-align: center;
-  color: #ece1ca;
-  margin-top: 60px;
-}
-
-body {
-  border-color: #69655d;
-  color: #ece1ca;
-  background-color: #676769;
-}
-
-#filters {
-  width: 500px;
-  margin: 30px auto;
-}
-
-#filters span {
-  margin: 15px;
-}
-
-img {
-  width: 270px;
-  height: 180px;
-  margin: 20px;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
-
-.thumbnailfade-leave-active,
-.thumbnailfade-enter-active {
-  transition: all 0.4s ease;
-}
-
-.thumbnailfade-enter-active {
-  transition-delay: 0.4s;
-}
-
-.thumbnailfade-enter,
-.thumbnailfade-leave-to {
-  opacity: 0;
+<style scoped>
+.row {
+  margin: 25px;
 }
 </style>
