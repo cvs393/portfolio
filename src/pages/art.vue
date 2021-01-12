@@ -35,23 +35,23 @@ export default {
     <a href="https://mir-s3-cdn-cf.behance.net/project_modules/fs/a4ba6b104643873.5f67d09addcc4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
       <img src="~/assets/gallery/2.png" class="img-fluid rounded">
     </a>
-    <a href="~/assets/gallery/3.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+    <a href="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/81910d92246785.5e462eb13a43e.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
       <img src="~/assets/gallery/3.png" class="img-fluid rounded">
     </a>
   </div>
   <div class="row">
-    <a href="~/assets/gallery/4.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+    <a href="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/82502d92246785.5e462eb135b2b.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
       <img src="~/assets/gallery/4.png" class="img-fluid rounded">
     </a>
-    <a href="~/assets/gallery/5.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+    <a href="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/25e78592246785.5e462eb132fd3.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
       <img src="~/assets/gallery/5.png" class="img-fluid rounded">
     </a>
-    <a href="~/assets/gallery/6.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+    <a href="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/44014792246785.5e462eb134caa.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
       <img src="~/assets/gallery/6.png" class="img-fluid rounded">
     </a>
   </div>
   <div class="row">
-    <a href="~/assets/gallery/8.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+    <a href="https://mir-s3-cdn-cf.behance.net/project_modules/fs/17654292246785.5e462eb13aad2.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
       <img src="~/assets/gallery/8.png" class="img-fluid rounded">
     </a>
     <a href="~/assets/gallery/9.PNG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">

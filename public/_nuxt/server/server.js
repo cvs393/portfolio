@@ -1875,25 +1875,25 @@ if (false) {}
 
 
 
-const _cdf19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 1).then(__webpack_require__.bind(null, 95)));
+const _cdf19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 1).then(__webpack_require__.bind(null, 103)));
 
-const _38a5dfd5 = () => interopDefault(__webpack_require__.e(/* import() | pages/art */ 2).then(__webpack_require__.bind(null, 96)));
+const _38a5dfd5 = () => interopDefault(__webpack_require__.e(/* import() | pages/art */ 2).then(__webpack_require__.bind(null, 104)));
 
-const _1682de2a = () => interopDefault(__webpack_require__.e(/* import() | pages/code */ 3).then(__webpack_require__.bind(null, 97)));
+const _1682de2a = () => interopDefault(__webpack_require__.e(/* import() | pages/code */ 3).then(__webpack_require__.bind(null, 105)));
 
-const _768ca612 = () => interopDefault(__webpack_require__.e(/* import() | pages/contact */ 4).then(__webpack_require__.bind(null, 98)));
+const _768ca612 = () => interopDefault(__webpack_require__.e(/* import() | pages/contact */ 4).then(__webpack_require__.bind(null, 106)));
 
 const _2dc79584 = () => interopDefault(Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 34)));
 
-const _140669ab = () => interopDefault(__webpack_require__.e(/* import() | pages/resume */ 9).then(__webpack_require__.bind(null, 99)));
+const _140669ab = () => interopDefault(__webpack_require__.e(/* import() | pages/resume */ 9).then(__webpack_require__.bind(null, 107)));
 
-const _0dbbad4a = () => interopDefault(__webpack_require__.e(/* import() | pages/gameProjects/BORE */ 5).then(__webpack_require__.bind(null, 100)));
+const _0dbbad4a = () => interopDefault(__webpack_require__.e(/* import() | pages/gameProjects/BORE */ 5).then(__webpack_require__.bind(null, 108)));
 
-const _99852bca = () => interopDefault(__webpack_require__.e(/* import() | pages/gameProjects/FSoTG */ 6).then(__webpack_require__.bind(null, 101)));
+const _99852bca = () => interopDefault(__webpack_require__.e(/* import() | pages/gameProjects/FSoTG */ 6).then(__webpack_require__.bind(null, 109)));
 
-const _1c3181b9 = () => interopDefault(__webpack_require__.e(/* import() | pages/gameProjects/gameJams */ 7).then(__webpack_require__.bind(null, 102)));
+const _1c3181b9 = () => interopDefault(__webpack_require__.e(/* import() | pages/gameProjects/gameJams */ 7).then(__webpack_require__.bind(null, 110)));
 
-const _8e81df78 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 8).then(__webpack_require__.bind(null, 94))); // TODO: remove in Nuxt 3
+const _8e81df78 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 8).then(__webpack_require__.bind(null, 102))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
