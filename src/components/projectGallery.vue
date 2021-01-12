@@ -8,7 +8,7 @@
             </div>
             <div class="mySlides fade">
               <nuxt-link to="/gameProjects/FSoTG"><img src="~/assets/img/GODS.jpg" style="width:100%"></nuxt-link>
-              <div class="text">CONTRACT ARTIST FOR A CLIENT DIRECTED GAME</div>
+              <div class="text">CONTRACT UI / CUTSCENE ARTIST</div>
             </div>
             <div class="mySlides fade">
               <nuxt-link to="/gameProjects/gameJams"><img src="~/assets/img/UKIE_GJ.jpg" style="width:100%"></nuxt-link>

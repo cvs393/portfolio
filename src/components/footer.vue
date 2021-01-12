@@ -8,14 +8,14 @@
             <li><a href="https://www.behance.net/courtney-spivey">Behance</a></li>
           </ul>
           <ul class="col-4 offset-4 right-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-right:15px;">
-            <li><a href="https://github.com/cvs393">Github</a></li>
             <li><a href="https://courtneyspivey.itch.io/">Itch.io</a></li>
+            <li><a href="https://github.com/cvs393">Github</a></li>
           </ul>
           <div class="container" style="margin: 0px 0px;">
             <div class="info">
                 <h4> EMAIL: cvs393@utulsa.edu </h4>
                 <h4> LOCATION: Dundee, UK </h4>
-                <h2 style="font-size: 20px;">© 2021 Courtney Spivey - All Rights Reserved.</h2>
+                <h2>© 2021 Courtney Spivey - All Rights Reserved.</h2>
             </div>
             
           </div>
@@ -84,5 +84,17 @@ h2 {
    padding: 10px 0;
    color: #fa2525;
    /*  #35495e */
+ }
+
+ @media screen and (max-width: 650px) {
+   .main-menu li a {
+     font-size: .6rem;
+   }
+   h4 {
+     font-size: 10px;
+   }
+   h2 {
+     font-size: 10px;
+   }
  }
 </style>

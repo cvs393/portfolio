@@ -95,7 +95,6 @@ img {
   top: 50%;
   transform: translate(-50%, -50%); 
   position: absolute;
-  opacity: 70%;
 }
 
 .thingy {
@@ -179,6 +178,28 @@ img {
  @media screen and (min-width: 1612px) {
    img {
     height: 200%;
+   }
+ }
+ @media screen and (max-width: 650px) {
+   .title h1 a{
+     font-size: 15vw;
+     display: flex;
+ 
+   }
+   .title h1 a:hover{
+     font-size: 15vw;
+     display: flex;
+ 
+   }
+ }
+ @media screen and (max-width: 420px) {
+   .title h1 a{
+
+     transform: translateX(-25%);
+   }
+   .title h1 a:hover{
+    
+     transform: translateX(-25%);
    }
  }
 </style>
