@@ -3,11 +3,11 @@
       <!--<vertLine/>-->
       <div class="footer-wrap">
         <div class="row" style="">
-          <ul class="col-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
+          <ul class="col-6 col-md-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
             <li><a href="https://www.linkedin.com/in/courtney-spivey/">LinkedIn</a></li>
             <li><a href="https://www.behance.net/courtney-spivey">Behance</a></li>
           </ul>
-          <ul class="col-4 offset-4 right-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-right:15px;">
+          <ul class="col-6 col-md-4 offset-0 offset-md-4 right-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-right:15px;">
             <li><a href="https://courtneyspivey.itch.io/">Itch.io</a></li>
             <li><a href="https://github.com/cvs393">Github</a></li>
           </ul>

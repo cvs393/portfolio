@@ -30,9 +30,9 @@ export default {
 <div class="container">
   <div class="row">
     <a href="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/93cf7b104643873.5f67d09add779.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-      <img src="~/assets/gallery/1.png" class="img-fluid rounded">
+      <img src="~/assets/gallery/1.jpg" class="img-fluid rounded">
     </a>
-    <a href="https://mir-s3-cdn-cf.behance.net/project_modules/fs/a4ba6b104643873.5f67d09addcc4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+    <a href="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/a887db104643873.5f67d09adc023.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
       <img src="~/assets/gallery/2.png" class="img-fluid rounded">
     </a>
     <a href="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/81910d92246785.5e462eb13a43e.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">

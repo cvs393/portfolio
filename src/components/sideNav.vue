@@ -1,6 +1,7 @@
 <template>
   
   <div class="thingy" style="position: relative; display:block;">
+    <sliderText/>
       <!--<sliderText/> later buddy--> 
       <div class="container-fluid">
         <div class="title">
@@ -8,6 +9,7 @@
         <h1 style="font-weight: 300;"><nuxt-link to="/">COURTNEY VALENTINE SPIVEY</nuxt-link></h1>
           <h4 style="margin-bottom: 0px; letter-spacing:5px; font-weight:300; font-size:1.2rem; color: #00000;">game designer, &nbsp; artist, &nbsp; hobby programmer.</h4>
         </div>
+      <div class="height">
         <div class="row" id="main-menu">
           <ul class="col-4 left-half main-menu" style="margin-top: 15px; display: flex; justify-content: space-between; padding-left: 15px;">
             <!--<li><nuxt-link to="/">Home</nuxt-link></li>-->
@@ -25,10 +27,9 @@
             </li>
             <li><nuxt-link to="/art">Art</nuxt-link></li>
             <!--<li><nuxt-link to="/resume">Resume</nuxt-link></li>-->
-            
           </ul>
         </div>
-  
+      </div>
       </div>
 
 
@@ -77,7 +78,12 @@ export default {
   top: 0;
   width: 100%;
   z-index: 1;
-  
+  left:0;
+  margin: 0;
+}
+
+.height {
+  height: 75px;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement 
@@ -98,11 +104,11 @@ img {
 }
 
 .thingy {
-  margin: 120px 53px 37px 53px;
+  margin: 0px 53px 37px 53px;
 }
 
 .header-warp {
-   padding: 120px 53px 37px 53px;
+   padding: 0px 53px 37px 53px;
    justify-content: flex-end;
  }
 

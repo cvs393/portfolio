@@ -6,15 +6,15 @@
           <div class="mask">
             <ul>
               <li class="anim1">
-                <div class="quote">Hello, this is a quote from a person.</div>
+                <div class="quote">Hello, this is a quote from a person. This person recommends Courtney highly.</div>
                 <div class="source">- Person</div>
               </li>
               <li class="anim2">
-                <div class="quote">Hello, this is a quote from another person.</div>
+                <div class="quote">I loved working with Courtney on all my projects.</div>
                 <div class="source">- Another person</div>
               </li>
               <li class="anim3">
-                <div class="quote">Hello, this is a quote from an animal.</div>
+                <div class="quote">Courtney works so hard she doesn't even know what Netflix is!</div>
                 <div class="source">- Animal</div>
               </li>
               <li class="anim4">
@@ -22,8 +22,8 @@
                 <div class="source">- Plant</div>
               </li>
               <li class="anim5">
-                <div class="quote">How do ya like that.</div>
-                <div class="source">- Cassidy</div>
+                <div class="quote">Please hire her. Please.</div>
+                <div class="source">- Courtney</div>
               </li>
             </ul>
           </div>
@@ -34,15 +34,15 @@
           <div class="mask">
             <ul>
               <li class="anim1">
-                <div class="quote">Hello, this is a quote from a person.</div>
+                <div class="quote">Courtney is the best!</div>
                 <div class="source-right">- Person</div>
               </li>
               <li class="anim2">
-                <div class="quote">Hello, this is a quote from another person.</div>
+                <div class="quote">I would hire Courtney in a heartbeat.</div>
                 <div class="source-right">- Another person</div>
               </li>
               <li class="anim3">
-                <div class="quote">Hello, this is a quote from an animal.</div>
+                <div class="quote">You can trust this review, I'm 100% legit. Believe me. Courtney is awesome!!</div>
                 <div class="source-right">- Animal</div>
               </li>
               <li class="anim4">
@@ -62,10 +62,7 @@
 </template>
 
 <style lang="css" scoped>
-html,
-body {
-  
-}
+
 h1 {
   font-size: 60px;
   text-align: center;
@@ -77,36 +74,41 @@ h1 {
 }
 
 .slider {
-  height: 320px;
-  width: 680px;
-  margin: 40px auto 0;
+  height: 100%;
+  width: 100%;
   overflow: visible;
   position: relative;
 }
 
 .mask {
   overflow: hidden;
-  height: 100px;
+  height: 100%;
 }
 
 .slider ul {
   margin: 0;
   padding: 0;
   position: relative;
+  height:100%;
 }
 
 .slider li {
-  width: 33vw;
-  height: 320px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: -325px;
   list-style: none;
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider .quote {
   font-size: 20px;
   font-style: italic;
   font-family: 'made-mirage';
+  text-align: center;
 }
 
 .slider .source {

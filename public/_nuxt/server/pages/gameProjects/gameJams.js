@@ -1,19 +1,19 @@
 exports.ids = [7];
 exports.modules = {
 
-/***/ 110:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/pages/gameProjects/gameJams.vue?vue&type=template&id=0b4ed323&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c("div")}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/pages/gameProjects/gameJams.vue?vue&type=template&id=b8569166&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h4',{staticStyle:{"text-align":"center"}},[_vm._ssrNode("to be populated")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/pages/gameProjects/gameJams.vue?vue&type=template&id=0b4ed323&
+// CONCATENATED MODULE: ./src/pages/gameProjects/gameJams.vue?vue&type=template&id=b8569166&
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__(1);
